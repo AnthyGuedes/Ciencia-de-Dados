@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b420d7b5-8352-4a0a-a224-4fef79244f9e" name="Changes" comment="commit att2 de coletas de dados [basica web]">
-      <change afterPath="$PROJECT_DIR$/coleta_dados_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coleta_dados_api_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estudo_dataframe_ciencias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerar_dados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,8 @@
     "Python.coleta_dados_basica.executor": "Run",
     "Python.coleta_dados_web.executor": "Run",
     "Python.estudo.executor": "Run",
+    "Python.estudo_dataframe_ciencias.executor": "Run",
+    "Python.gerar_dados.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",

@@ -1,0 +1,20 @@
+{% extends "request/plugins/table.html" %}
+{% load i18n %}
+{% block table %}
+    <tr>
+        <td>&nbsp;</td>
+        <th>{% translate "Today" %}</th>
+        <th>{% translate "This week" %}</th>
+        <th>{% translate "This month" %}</th>
+        <th>{% translate "This year" %}</th>
+        <th>{% translate "Alltime" %}</th>
+    </tr>
+    {% for key,value in traffic %}
+        <tr>
+            <th>{{ key }}</th>
+            {% for item in value %}
+                <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+{% endblock %}
